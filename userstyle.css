@@ -44,9 +44,9 @@
     --font-weight-base: 400;
     --font-weight-base-extra: 500;
     --font-weight-bold: 600;
-    --font-title: "Work Sans";
-    --font-sans: "Work Sans";
-    --font-mono: "Cascadia Code";
+    --font-title: "IBM Plex Sans";
+    --font-sans: "IBM Plex Sans";
+    --font-mono: "IBM Plex Mono";
     --primary: var(--yellow);
     --secondary: var(--yellow);
     --font-line-height: 1.4em;
