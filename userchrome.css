@@ -168,6 +168,12 @@ body {
 }
 
 /* gui */
+.hzhPxq {
+  /* The actual notebook open */
+  background: var(--yellow-darkest) !important;
+}
+
+
 .side-bar {
     background-color: var(--black) !important;
     opacity: 0.8;
@@ -381,6 +387,10 @@ input:focus {
 .cm-quote {
     color: var(--light-grey) !important;
    /* changes the font colour for quoted text*/
+}
+.cm-strong {
+  /* Change the strong markup */
+  font-weight: var(--font-weight-bold);
 }
 .cm-image-marker {
     color: var(--red);
