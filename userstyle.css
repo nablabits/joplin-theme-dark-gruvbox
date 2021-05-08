@@ -56,7 +56,7 @@
 }
 
 .hljs {
-    background-color: black;
+    background-color: var(--dark-grey);
     padding: var(--base-size-18);
     border-radius: var(--base-size-4) !important;
 }
@@ -176,7 +176,7 @@ a:hover {
 }
 
 a[data-resource-id] {
-    color: var(--dark-green) !important;
+    color: var(--secondary) !important;
     /* change the colour of INTERNAL links */
     /* https://discourse.joplinapp.org/t/share-your-css/1730/65 */
 }
@@ -208,9 +208,9 @@ pre {
     font-size: var(--base-size-15) !important;
     padding: .3em .6em !important;
     border-radius: var(--base-size-4) !important;
-    background-color: #040404 !important;
-    border: none !important;
-    color: var(--aqua) !important;
+    background-color: var(--transparent) !important;
+    border: 1px solid var(--primary) !important;
+    color: var(--white) !important;
 }
 
 /* ==emphasis== */
@@ -221,7 +221,7 @@ mark {
 
 /*Bold*/
 strong {
-    color: var(--green-dark) !important;
+    color: var(--orange-dark) !important;
     font-weight: var(--font-weight-bold);
 }
 
