@@ -374,6 +374,7 @@ input:focus {
 /* headers */
 .cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4 {
     color: var(--dark-white) !important;
+    font-weight: var(--font-weight-bold) !important;
 }
 
 .cm-variable-2, .cm-meta {
@@ -382,6 +383,7 @@ input:focus {
 }
 .cm-comment {
     color: var(--green-dark) !important;
+    font-weight: var(--font-weight-bold) !important;
    /* changes the font colour for code text*/
 }
 .cm-quote {
