@@ -41,13 +41,13 @@
     --z-toc: 99;
     --font-weight-light: 200;
     --font-weight-base: 400;
-    --font-weight-bold: 500;
+    --font-weight-bold: 700;
     --font-sans: "IBM Plex Sans";
     --font-mono: "IBM Plex Mono";
-    --primary: var(--purple);
+    --primary: var(--yellow-dark);
     --secondary: var(--orange-dark);
     --font-line-height: 1.4em;
-    --font-size: var(--base-size-16);
+    --font-size: var(--base-size-14);
     --icon-size: var(--font-size);
 }
 
