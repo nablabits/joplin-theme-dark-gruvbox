@@ -373,7 +373,7 @@ input:focus {
 
 /* headers */
 .cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4 {
-    color: var(--dark-white) !important;
+    color: var(--yellow-dark) !important;
     font-weight: var(--font-weight-bold) !important;
 }
 
@@ -392,7 +392,7 @@ input:focus {
 }
 .cm-strong {
   /* Change the strong markup */
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold) !important;
 }
 .cm-image-marker {
     color: var(--red);
