@@ -363,7 +363,7 @@ input:focus {
 
 /* lists */
 .cm-s-material-darker .cm-variable-2 {
-    color: var(--yellow-dark) !important;
+    color: var(--light-grey) !important;
 }
 
 /* internal links */
