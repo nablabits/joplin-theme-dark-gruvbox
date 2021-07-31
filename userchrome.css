@@ -421,3 +421,6 @@ input:focus {
     font-weight: 900;
    /* changes the font weight for horizontal rule markdown "***" */
 }
+
+/* add some space so text won't be close to line numbers */
+.CodeMirror pre.CodeMirror-line {margin-left: .4em;}
