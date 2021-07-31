@@ -427,7 +427,7 @@ input:focus {
 .CodeMirror pre.CodeMirror-line {margin-left: .9em;}
 .CodeMirror-cursor {margin-left: .9em;}
 
-.linenumber {color: var(--purple-dark);}
+.CodeMirror-linenumber {color: var(--purple-dark) !important;}
 .CodeMirror-gutter {
   background-color: var(--black);
   border-right: 2px solid var(--purple-dark);
