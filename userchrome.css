@@ -422,5 +422,14 @@ input:focus {
    /* changes the font weight for horizontal rule markdown "***" */
 }
 
+/* Line numbers */
 /* add some space so text won't be close to line numbers */
-.CodeMirror pre.CodeMirror-line {margin-left: .4em;}
+.CodeMirror pre.CodeMirror-line {margin-left: .9em;}
+.CodeMirror-cursor {margin-left: .9em;}
+
+.linenumber {color: var(--purple-dark);}
+.CodeMirror-gutter {
+  background-color: var(--black);
+  border-right: 2px solid var(--purple-dark);
+  padding-right: 2px;
+}
