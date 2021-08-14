@@ -368,7 +368,12 @@ input:focus {
 
 /* internal links */
 .cm-s-material-darker .cm-string {
-    color: var(--primary) !important;
+    color: var(--yellow) !important;
+    opacity: 1 !important;
+}
+
+div.CodeMirror span.cm-link-text {
+  color: var(--green) !important;
 }
 
 /* headers */
@@ -382,7 +387,7 @@ input:focus {
    /* changes the font colour for all lists (.cm-meta controls the checkbox square brackets [ ] ) */
 }
 .cm-comment {
-    color: var(--green-dark) !important;
+    color: var(--blue) !important;
     font-weight: var(--font-weight-bold) !important;
    /* changes the font colour for code text*/
 }
@@ -393,6 +398,7 @@ input:focus {
 .cm-strong {
   /* Change the strong markup */
   font-weight: var(--font-weight-bold) !important;
+  color: var(--orange) !important;
 }
 .cm-image-marker {
     color: var(--red);
