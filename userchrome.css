@@ -21,6 +21,7 @@
     --blue-dark: #458588;
     --purple: #d3869b;
     --purple-dark: #b16286;
+    --fucsia: #ff3390;
     --aqua: #8ec07c;
     --aqua-dark: #689d6a;
     --aqua-very-dark: #477248;
@@ -433,10 +434,13 @@ div.CodeMirror span.cm-link-text {
 .CodeMirror pre.CodeMirror-line {margin-left: .9em;}
 .CodeMirror-cursor {margin-left: .9em;}
 
-.CodeMirror-linenumber {color: var(--purple-dark) !important;}
-.CodeMirror-gutter {
-  background-color: var(--black);
-  border-right: 2px solid var(--purple-dark);
-  padding-right: 2px;
+.CodeMirror-linenumber {
+  color: var(--fucsia) !important;
+  font-weight: 500 !important;
 }
 .CodeMirror-selected {margin-left: .9em;}
+
+/* Since joplin 2.3.5 some extra margin was introduced */
+.CodeMirror-gutter-wrapper {
+  left: -45px !important;
+}

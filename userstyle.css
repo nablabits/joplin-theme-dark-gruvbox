@@ -220,7 +220,7 @@ mark {
 
 /*Bold*/
 strong {
-    color: var(--orange-dark) !important;
+    color: var(--orange) !important;
     font-weight: var(--font-weight-bold);
 }
 
