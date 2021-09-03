@@ -444,3 +444,7 @@ div.CodeMirror span.cm-link-text {
 .CodeMirror-gutter-wrapper {
   left: -45px !important;
 }
+
+.CodeMirror-gutter {
+	background-color: var(--black)
+}
